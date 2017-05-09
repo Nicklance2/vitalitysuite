@@ -22,10 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/underscore/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56771797">
+            <state vertical-scroll-proportion="-5.773585">
               <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
               <folding />
             </state>
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/underscore/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.303571">
-              <caret line="940" column="22" selection-start-line="940" selection-start-column="22" selection-end-line="940" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.8731343">
+              <caret line="1165" column="21" selection-start-line="1165" selection-start-column="21" selection-end-line="1165" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -137,8 +137,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/underscore/front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/underscore/page-about-us.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/underscore/page-contact-us.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/underscore/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/underscore/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/underscore/style.css" />
       </list>
     </option>
   </component>
@@ -789,18 +789,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/underscore/style.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/underscore/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.303571">
-          <caret line="940" column="22" selection-start-line="940" selection-start-column="22" selection-end-line="940" selection-end-column="22" />
+        <state vertical-scroll-proportion="-5.773585">
+          <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/underscore/header.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/underscore/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56771797">
-          <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.8731343">
+          <caret line="1165" column="21" selection-start-line="1165" selection-start-column="21" selection-end-line="1165" selection-end-column="21" />
           <folding />
         </state>
       </provider>
