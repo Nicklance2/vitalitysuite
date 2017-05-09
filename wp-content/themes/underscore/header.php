@@ -53,7 +53,7 @@
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="#development">Development</a></li>
-					<li><a href="#digital-marketing">Digital Marketing</a></li>
+					<li><a href="#digital-marketing">Marketing</a></li>
 					<li><a href="#branding">Branding</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
