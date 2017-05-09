@@ -1174,3 +1174,13 @@ footer .sep{
 	width: 100%;
 	background: #eee;
 }
+.dquotes1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.dquotes2{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
