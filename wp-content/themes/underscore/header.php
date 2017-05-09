@@ -47,14 +47,14 @@
 			<a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img class="inline-block" src="<?php bloginfo('stylesheet_directory'); ?>/images/logo2.png"></a>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="<?php bloginfo('url'); ?>/about-us">About Us</a></li>
-					<li><a href="<?php bloginfo('url'); ?>/our-work">Our Work</a></li>
-					<li><a href="<?php bloginfo('url'); ?>/contact-us">Contact Us</a></li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="#development">Development</a></li>
 					<li><a href="#digital-marketing">Marketing</a></li>
 					<li><a href="#branding">Branding</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="<?php bloginfo('url'); ?>/about-us">About Us</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/our-work">Our Work</a></li>
+					<li><a href="<?php bloginfo('url'); ?>/contact-us">Contact Us</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
