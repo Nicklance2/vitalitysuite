@@ -51,6 +51,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 	font-family: "HaydonBrush";
 	src: url(fonts/HaydonBrush_PERSONAL_USE.ttf);
 }
+@font-face {
+	font-family: "arty";
+	src: url(fonts/arty.otf);
+}
 
 /*--------------------------------------------------------------
 # Normalize
@@ -291,6 +295,9 @@ h6 {
 
 p {
 	margin-bottom: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	color: #666;
 }
 
 dfn,
@@ -458,27 +465,7 @@ input[type="submit"]:active {
 	border-color: #aaa #bbb #bbb;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-input[type="number"],
-input[type="tel"],
-input[type="range"],
-input[type="date"],
-input[type="month"],
-input[type="week"],
-input[type="time"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="color"],
-textarea {
-	color: #666;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	padding: 3px;
-}
+
 
 select {
 	border: 1px solid #ccc;
@@ -963,9 +950,7 @@ footer .sep{
 #fullpage .section{
 	background: #ffffff;
 }
-.Vidage{
-	position: relative;
-}
+
 .text-center{
 	text-align: center;
 }
@@ -1006,8 +991,8 @@ footer .sep{
 	font-family: "HaydonBrush";
 	font-size: 64px;
 }
-.section-home{
-	height: 100vh;
+.section-home, .section-contact-us{
+	height: calc(100vh - 100px);
 }
 .page-header-content{
 	background-color: rgba(255,255,255,.75);
@@ -1048,4 +1033,128 @@ footer .sep{
 	font-size: 18px;
 	padding-bottom: 12px;
 	display: block;
+}
+.about-us{
+	height: calc(100vh - 114px);
+}
+.about-us .left-side{
+	background: #fff;
+	height: 100%;
+}
+.about-us .left-side p{
+	font-size: 18px;
+}
+.about-us .right-side{
+	background: url("images/city1.jpg");
+	height: 100%;
+}
+.left-side-wrapper{
+	max-width: 600px;
+	margin: auto;
+	padding-top: 50px;
+}
+.left-side-wrapper .quotes1{
+	float: left;
+}
+.left-side-wrapper .hithere{
+	float: left;
+	font-size: 58px;
+	margin-left: 25px;
+	border-bottom: 5px solid #fff22d;
+}
+.about-h3{
+	font-weight: 300;
+	letter-spacing: 8px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.signature-sign{
+	display: block;
+	font-size: 84px;
+	font-family: "arty", sans-serif;
+	font-weight: 300;
+	color: #3b31e1;
+	margin-bottom: -27px;
+
+}
+.signature-name{
+	font-size: 28px;
+	display: block;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+}
+.about-header-right, .about-header-left{
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.about-header-left{
+	background: #f5f5f5;
+	color: #666;
+}
+.about-header-right{
+	background: #000;
+	color: #ffffff;
+}
+.vertical-center-wrapper{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+.vertical-center{
+	position: relative;
+	left: -50%;
+	top: -50%;
+	transform: translateY(-50%);
+}
+.section-contact-us .vertical-center{
+	background: rgba(60, 59, 59, 0.65);
+	padding: 50px;
+	text-align: center;
+}
+.section-contact-us h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 75px;
+	color: #fff;
+}
+.line-violet{
+	width: 250px;
+	height: 2px;
+	background: #6442ff;
+	display: inline-block;
+	margin-top: 30px;
+}
+.contact-message{
+	padding: 30px;
+	text-align: center;
+	font-size: 18px;
+	background: #ffffff;
+
+}
+.contact-form{
+	background: #f5f5f6;
+	padding-bottom: 60px;
+}
+.contact-form h1{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 42px;
+	margin-top: 60px;
+}
+.contact-form p{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 18px;
+}
+.btn-accent{
+	color: #ffffff!important;
+	background-color: #6442ff!important;
+	border-color: #6442ff!important;
+	padding: 13px 31px 13px 31px!important;
+}
+.btn-circle{
+	border-radius: 10em!important;
 }
