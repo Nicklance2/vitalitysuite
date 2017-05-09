@@ -8,6 +8,11 @@
 get_header();
 ?>
 
+<div class="about-us-banner">
+    <img class="pull-right" src="<?php bloginfo('stylesheet_directory'); ?>/images/bg1.jpg">
+    <div class="clearfix"></div>
+</div>
+
 <div class="container-fluid about-us">
     <div class="row" style="height: 100%;">
         <div class="col-xs-6 left-side">

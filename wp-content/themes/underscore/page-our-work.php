@@ -11,7 +11,8 @@ get_header();
 <div class="clearfix"></div>
 <div class="section our-work" data-anchor="about-us">
     <div class="clearfix"></div>
-    <h1 class="text-center" style="margin-bottom: 66px;">Creations</h1>
+    <h1 class="text-center">Creations</h1>
+    <h3 class="text-center" style="margin-bottom: 66px;">Creating individuality is knowing which rules to follow and which to break.</h3>
     <div class="clearfix"></div>
     <div class="col-xs-4">
         <div class="work-item">
